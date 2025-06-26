@@ -1,0 +1,10 @@
+1. caesar.php flag{b712916d8bfc1718a431c7b4fa280ae6}
+2. vigenere.php flag{61f6933f179df0c61cba100995e7ebea}
+3. buffer.php flag{4ce61ca473e0a8f2fdbb857a0a53b5bc}
+4. idor.php flag{1bea3a3d4bc3be1149a75b33fb8d82bc}
+5. cookie FLAG{2dccd1ab3e03990aea77359831c85ca2}
+6. code.php flag{ef9f2c434c804b11769c3c34e4dd1a0a}
+7. rootme.php bravo
+8. jwt.php flag{cfd61b8a7397fa7c10b2ae548f5bfaef}
+9. proto.php flag{4ca8a95edcb45a890a2efa4c12cd3c61}
+10. frequently.php flag{c725f898abdbcef5a53dda94af17b755}
