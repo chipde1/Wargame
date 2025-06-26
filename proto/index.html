@@ -4,17 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prototype Pollution Demo</title>
+    <style>
+    /* 기본 스타일 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      font-weight: bold;
+    }
+    input {
+      padding: 8px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #result {
+      margin-top: 20px;
+    }
+    pre {
+      background-color: #eaeaea;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    .string { color: green; }
+    .number { color: darkorange; }
+    .boolean { color: blue; }
+    .null { color: magenta; }
+    .key { color: red; }
+  </style>
 </head>
 <body>
     <h1>Prototype Pollution Demo</h1>
-    <form action="process.php" method="POST">
+    <form id="pollutionForm">
         <label for="key">Enter Key:</label>
         <input type="text" id="key" name="key" placeholder="Enter object key" required><br><br>
-        
+
         <label for="value">Enter Value:</label>
         <input type="text" id="value" name="value" placeholder="Enter value" required><br><br>
-        
+
         <button type="submit">Submit</button>
     </form>
+
+    <h2>Result:</h2>
+    <pre id="result"></pre>
+
+    <script src="app.js"></script>
 </body>
 </html>
