@@ -26,7 +26,8 @@
 
 ## Buffer Overvflow를 통한 인증 우회
 ![image](https://github.com/user-attachments/assets/11209e15-e2bc-4d0f-8ff8-e76f9a7dc69d)
-![image](https://github.com/user-attachments/assets/12bca5f6-1ff1-4c1a-9ca2-3e9a2bafc6d3)
+![image](https://github.com/user-attachments/assets/230efcbe-c823-4d18-8f7c-b0ca7ea252ae)
+
 
 ## JWT 취약점
 ![image](https://github.com/user-attachments/assets/da7b0d2a-5b5b-452e-bd02-34fa999d24bf)
